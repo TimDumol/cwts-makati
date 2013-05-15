@@ -1,3 +1,5 @@
-- var places = ['ayala-museum', 'filipinas-heritage']
+- var places = [{code: 'ayala-museum', name: 'Ayala Museum'}, {code: 'ayala-triangle-gardens', name: 'Ayala Triangle Gardens'}, {code: 'filipinas-heritage', name: 'Filipinas Heritage Library'}, {code: 'guadalupe-church', name: 'Nuestra Señora de Gracia Church'}, {code: 'monuments', name: 'Ayala Triangle Monuments'}, {code: 'plaza-cristo-reyes', name: 'Plaza Cristo Reyes'}, {code: 'poblacion-church', name: 'Saints Peter and Paul Church'}, {code: 'yuchengco-museum', name: 'Yuchengco Museum'}]
 for place in places
-  img(src="/img/#{place}/cover.jpg")
+  h2 #{place.name}
+  a(href='/#/sites/#{place.code}')
+    img(src="/img/#{place.code}/cover.jpg")

@@ -2,7 +2,6 @@
 
 module = angular.module 'ranklist.routes', [
   'ranklist.home'
-  'ranklist.admin'
 ]
 
 module.config ['$routeProvider', ($routeProvider) ->
