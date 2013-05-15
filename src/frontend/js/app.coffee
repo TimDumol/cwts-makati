@@ -1,3 +1,3 @@
-angular.module 'ranklist', [
-  'ranklist.routes'
+angular.module 'cwts', [
+  'cwts.routes'
 ]

@@ -1,4 +1,4 @@
-angular.module("ranklist.injectTransformers", []).directive "injectTransformers", [->
+angular.module("cwts.injectTransformers", []).directive "injectTransformers", [->
   restrict: "A"
   require: "ngModel"
   priority: -1
