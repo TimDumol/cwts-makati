@@ -77,8 +77,8 @@ module.controller 'MapCtrl', ['$scope', ($scope) ->
       long: 121.03137
     }
     {
-      code: 'plaza-cristo-reyes'
-      name: 'Plaza Cristo Reyes'
+      code: 'plaza-cristo-rey'
+      name: 'Plaza Cristo Rey'
       lat: 14.56623
       long: 121.03131
     }
