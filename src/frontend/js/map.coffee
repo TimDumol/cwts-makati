@@ -16,7 +16,7 @@ module.directive 'tjdLeaflet', [-> {
     ).addTo(map)
     for site in sites
       L.marker([site.lat, site.long]).addTo(map)
-        .bindPopup("<a href=\"/#/sites/#{site.code}\">#{site.name}</a>")
+        .bindPopup("<a href=\"/#/sites/#{site.code}\">Click to learn more about #{site.name}</a>")
         .openPopup()
 }]
 
